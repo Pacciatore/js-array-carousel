@@ -121,3 +121,48 @@ a {
 }
 
 /*#endregion Imported Settings  */
+
+/*#region Content  */
+
+.container {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#carousel-container>* {
+    border-radius: 30px;
+}
+
+#carousel-navigator {
+    z-index: 2;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
+
+#carousel-navigator button {
+    height: 40px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    border: 0px;
+    border-radius: 10px;
+}
+
+/* hover content */
+#carousel-navigator button:hover {
+    background-color: #fff;
+}
+
+
+/*#endregion Content  */
+
+
+/*#region DEBUGGER  */
+
+.debug .container {
+    background-color: red;
+    min-height: 50vh;
+}
+
+/*#endregion DEBUGGER  */

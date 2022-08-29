@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Link FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Link CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -15,7 +20,31 @@
     <title>Carousel</title>
 </head>
 
-<body>
+<body class="debug">
+
+    <div class="container column j-center">
+
+        <div id="carousel" class="relative">
+
+            <div id="carousel-container">
+                <img class="w-100" src="images/01.jpg" alt="img-01">
+            </div>
+
+            <div id="carousel-navigator" class="relative row space-between">
+
+                <button id="previousButton">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                </button>
+
+                <button id="nextButton">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 
