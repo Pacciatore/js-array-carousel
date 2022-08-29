@@ -130,6 +130,8 @@ a {
     margin: 0 auto;
 }
 
+/* TODO altezza fissa del carosello che non cambia con le immagini */
+
 #carousel-container>* {
     border-radius: 30px;
     display: none;
