@@ -132,6 +132,11 @@ a {
 
 #carousel-container>* {
     border-radius: 30px;
+    display: none;
+}
+
+#carousel-container>*.active {
+    display: inline-block;
 }
 
 #carousel-navigator {
