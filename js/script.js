@@ -47,9 +47,8 @@ previousButton.addEventListener('click',
             carouselContainer.innerHTML = '';
             activeIndex--;
         } else if (activeIndex === 0) {
-            activeIndex = images.length;
+            activeIndex = images.length - 1;
             carouselContainer.innerHTML = '';
-            activeIndex--;
         }
 
         for (let i = 0; i < images.length; i++) {
